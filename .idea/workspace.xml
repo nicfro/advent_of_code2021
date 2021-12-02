@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73770c77-78c1-4b48-8b0f-e3ae792b9e78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day2/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2/solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/advent_of_code2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/advent_of_code2021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +29,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ea653e13-337c-484b-9836-e0f46b99ba87" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,7 +90,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -162,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638394710252</updated>
       <workItem from="1638449375531" duration="2508000" />
-      <workItem from="1638452224292" duration="2496000" />
+      <workItem from="1638452224292" duration="2897000" />
     </task>
     <servers />
   </component>
