@@ -1,23 +1,9 @@
-import os
-
-cwd = os.getcwd()  # Get the current working directory (cwd)
-files = os.listdir(cwd)
-print(cwd, files)
 arr = []
 with open('day2/input.txt') as f:
     for line in f:
         x, y = line.strip().split(" ")
         arr.append((x, int(y)))
-"""
-test case
 
-arr = [["forward", 5],
-["down", 5],
-["forward", 8],
-["up", 3],
-["down", 8],
-["forward", 2]]
-"""
 '''
 Part 1
 
