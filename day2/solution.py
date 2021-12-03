@@ -1,5 +1,10 @@
+import os
+
+cwd = os.getcwd()  # Get the current working directory (cwd)
+files = os.listdir(cwd)
+print(cwd, files)
 arr = []
-with open('input.txt') as f:
+with open('day2/input.txt') as f:
     for line in f:
         x, y = line.strip().split(" ")
         arr.append((x, int(y)))
