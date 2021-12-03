@@ -7,14 +7,7 @@ with open('day3/input.txt') as f:
 '''
 Part 1
 
-Considering only the first bit of each number, 
-there are five 0 bits and seven 1 bits. Since the most common bit is 1, 
-the first bit of the gamma rate is 1.
-
-Epsilon rate is the least common number
-
-Use the binary numbers in your diagnostic report to calculate the gamma rate and epsilon rate, 
-then multiply them together. What is the power consumption of the submarine? 
+https://adventofcode.com/2021/day/3
 '''
 
 def calc_binary(arr):
@@ -37,6 +30,8 @@ print(result)
 
 '''
 part 2
+
+https://adventofcode.com/2021/day/3
 '''
 def extract_arrays(arr, idx, common):
     # recursive base case
