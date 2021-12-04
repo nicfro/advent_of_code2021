@@ -1,4 +1,7 @@
 from collections import defaultdict
+from timeit import default_timer as timer
+from datetime import timedelta
+
 
 bingo_plates = []
 temp = []
@@ -89,8 +92,14 @@ def find_winner():
                         last_winner *= int(number)
                         return first_winner, last_winner
 
-    
-print(find_winner())
+ 
 
 
 
+
+start = timer()
+
+print(find_winner)
+
+end = timer()
+print(timedelta(seconds=end-start))
