@@ -18,9 +18,10 @@ for i in arr:
 
 for i in range(solution2):
     new_fish = days_to_hatch[0]
-    days_to_hatch = days_to_hatch[1:]
+    days_to_hatch = days_to_hatch[1:] 
     days_to_hatch.append(new_fish)
     days_to_hatch[6] += new_fish
 
     total_fish += new_fish
 print(total_fish)
+
