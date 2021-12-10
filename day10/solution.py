@@ -21,7 +21,6 @@ points2 = {"(": 1,
            "{": 3,
            "<": 4}
 
-
 total1 = 0
 part2_scores = []
 for s in arr:
