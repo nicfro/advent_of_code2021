@@ -1,6 +1,5 @@
 from collections import defaultdict
 
-
 arr = []
 with open('day8/input.txt') as f:
     for line in f:
@@ -17,19 +16,6 @@ part2[2] = 1
 part2[4] = 4
 part2[3] = 7
 part2[7] = 8
-
-"""         
-def part2(i):
-    if i == 2:
-        return 1
-    if i == 4:
-        return 4
-    if i == 3:
-        return 7
-    if i == 7:
-        return 8
-    return 0
-"""     
 
 total = 0
 for i in arr:
