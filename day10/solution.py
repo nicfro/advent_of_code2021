@@ -31,13 +31,16 @@ for s in arr:
             stack.append(i)
         else:
             if len(stack) > 0:
+                # check if last bracket matches closing one
                 if stack.pop() != end_map[i]:
                     total1 += points1[i]
                     break
+            # if stack is empty a beginning is missing
             else:
                 total1 += points1[i]
                 break
     else:
+        # everything worked missing brackets in stack
         for i in reversed(stack):
             total2 *= 5
             total2 += points2[i]
