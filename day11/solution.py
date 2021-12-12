@@ -38,7 +38,6 @@ def light_up(i, j):
 
 total = 0
 for step in range(300):
-
     increment()
     lit_step = set()
 
