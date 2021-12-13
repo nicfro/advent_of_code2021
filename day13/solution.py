@@ -11,5 +11,7 @@ for axis, fold_line in instructions:
     dots = set([fold(int(fold_line), x, y, axis) for x,y in set(dots)])
     print(len(dots))
 
-for y in range(6): 
-    print(*[' $'[(x,y) in dots] for x in range(40)])
+x_max, y_max = [max(idx)+1 for idx in zip(*dots)]
+
+for y in range(y_max): 
+    print(*[' $'[(x,y) in dots] for x in range(x_max)])
