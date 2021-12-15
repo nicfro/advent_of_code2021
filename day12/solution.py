@@ -19,7 +19,7 @@ def can_visit_part1(node, path):
 def can_visit_part2(node, path):
     return can_visit_part1(node,path) or max(Counter(filter(str.islower, path)).values()) == 1
 
-def get_paths(current, path, pred):
+def get_paths(current, path, can_visit):
     # Recursion base case
     if current == 'end': 
         return [path]
@@ -27,7 +27,7 @@ def get_paths(current, path, pred):
     # Recusion case
     res = []
     for node in graph[current]:
-        if pred(node, path):
+        if can_visit(node, path):
             res += get_paths(node, path + [node], pred)
 
     return res
