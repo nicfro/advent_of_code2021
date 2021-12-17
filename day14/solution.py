@@ -49,8 +49,7 @@ print(max(counter.values())-min(counter.values()))
 
 
 '''
-Part 2:
-Cached recursion
+Part 2: Cached recursion
 '''
 @cache
 def expand(first, second, iteration=40):

@@ -3,6 +3,8 @@ x1, x2, y1, y2 = 20, 30, -10, -5
 # input
 x1, x2, y1, y2 = 236, 262, -78, -58
 
+x1, x2, y1, y2 = 257, 286, -101, -57
+
 points = []
 for i in range(x1, x2+1):
     for j in range(y1, y2+1):
@@ -27,7 +29,7 @@ def shoot(x, y, min_y=y1, max_x=x2):
 max_y = 0
 counter = 0
 for i in range(x2+1):
-    for j in range(y1-1,-y1+1):
+    for j in range(y1-1,abs(y1)+1):
         count = shoot(i,j)
         if count:
             counter += 1
