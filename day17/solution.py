@@ -36,4 +36,5 @@ for i in range(x2+1):
             if count > max_y:
                 max_y = count
                 
-print(counter, max_y)
+# return part 1, part 2             
+print(max_y, counter)
