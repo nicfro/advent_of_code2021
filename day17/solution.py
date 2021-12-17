@@ -2,7 +2,7 @@
 x1, x2, y1, y2 = 20, 30, -10, -5
 # input
 x1, x2, y1, y2 = 236, 262, -78, -58
-
+# input
 x1, x2, y1, y2 = 257, 286, -101, -57
 
 points = []
@@ -23,17 +23,17 @@ def shoot(x, y, min_y=y1, max_x=x2):
         x = x-1 if x > 0 else 0
         y -= 1
         if tuple(position) in points:
-            return True, highest
-    return False
+            return highest
+    return -1
 
 max_y = 0
 counter = 0
 for i in range(x2+1):
     for j in range(y1-1,abs(y1)+1):
         count = shoot(i,j)
-        if count:
+        if count != -1:
             counter += 1
-            if count[1] > max_y:
-                max_y = count[1]
+            if count > max_y:
+                max_y = count
                 
 print(counter, max_y)

@@ -28,7 +28,7 @@ def get_paths(current, path, can_visit):
     res = []
     for node in graph[current]:
         if can_visit(node, path):
-            res += get_paths(node, path + [node], pred)
+            res += get_paths(node, path + [node], can_visit)
 
     return res
 
