@@ -32,7 +32,7 @@ for i in range(width*5):
         for x,y in adjacent:
             mul = x//width + y//height
             value = mul + int(arr[x%width][y%height])
-            value = value if value <= 9 else value-9   
+            value = value if value <= 9 else value-9
             temp.append(((x,y), value))
 
         graph[i][j] = temp
